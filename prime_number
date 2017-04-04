@@ -1,0 +1,32 @@
+
+list1=[]
+even=[]
+odd=[]
+prime_even=[]
+prime_odd=[]
+final_prime_list=[]
+b=int(input())
+b=b+1
+for a in (range(1,b)):
+    list1.append(a)
+    if a % 2 == 0:
+        even.append(a)
+
+    else:
+        odd.append(a)
+for d in even:
+    if all(d% i != 0 for i in range(2, d)):
+        prime_even.append(d)
+
+for c in odd:
+    if all(c% i != 0 for i in range(2, c)):
+        prime_odd.append(c)
+
+
+e=prime_even+prime_odd
+print(list1)
+print(even)
+print(odd)
+print(prime_odd)
+print (prime_even)
+print(e)
