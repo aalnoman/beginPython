@@ -1,0 +1,4 @@
+a=2
+count=100
+print('Noman bhai',a, 'no batpar')
+print('Noman bhai',count, 'percent valo manush Lol')
