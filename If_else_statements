@@ -1,0 +1,14 @@
+a=int(input( ))
+b=int(input( ))
+from math import pi
+try:
+    if b>a:
+        c=b*100
+        print("The conversion of meter= ",c,'Cm')
+    else:
+        d=pi*a**2
+        e=round(int(d))
+        print("The area of circle= ", e)
+
+except ValueError:
+    print("I didn't recognize {0} as a number")
