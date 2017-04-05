@@ -1,0 +1,7 @@
+list_1=[1,2,3,4,5]
+list_2=[1,1,1,1,1]
+a = tuple(list_1)
+b = tuple(list_2)
+import operator
+c=tuple(map(operator.add, a,b))
+print(c)
