@@ -1,0 +1,6 @@
+a=int(input("Age= "))
+print('Johny what is your age?', a)
+b=29
+c=28359
+print('What is your present address?')
+print(b,'E',',','Luisental'',',c,',','Bremen', ',','Germany')
